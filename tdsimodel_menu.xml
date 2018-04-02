@@ -2,13 +2,13 @@
 <openerp>
     <data>
         <!-- Top menu item -->
-        <menuitem name="Client" id="menu_model_root" groups="group_model_member" sequence="80" />
+        <menuitem name="Ecole" id="menu_model_root" groups="group_model_member" sequence="80" />
         
         <!-- Menu Modele / Configuration -->
         <menuitem id="menu_modele_config" parent="menu_model_root"
-            name="Configuration" sequence="16"/>
-            
-            <menuitem id="menu_res_company_admin" parent="menu_modele_config"
-                action="base.action_res_company_form" sequence="10" name="Société"/>
+                name="Gestion" sequence="16"/>
+                
+             <menuitem id="menu_iut_eleve" parent="menu_modele_config"
+                action="iut_eleve_action" sequence="13" name="Eleves"/>  
     </data>
 </openerp>

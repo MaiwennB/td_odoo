@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "tdsimodel",
+    'name': "TD_IUT_MB",
 
     'summary': """
         Short (1 phrase/line) summary of the module's purpose, used as
@@ -24,11 +24,12 @@
 
     # always loaded
     'data': [
+        'views/iut_eleve_views.xml',
         'security/tdsimodel_security.xml',
         'datas/datas.xml',
         'views/views.xml',
+        'views/iut_eleve_views.xml',
         'tdsimodel_menu.xml',
-        'security/ir.model.access.csv',
     ],
     # only loaded in demonstration mode
     'demo': [
