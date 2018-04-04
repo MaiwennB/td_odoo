@@ -6,8 +6,13 @@
           <field name="model">iut.eleve</field>
           <field name="arch" type="xml">
               <tree string="Modèle">
+
                   <field name="name"/>
                   <field name="surname"/>
+                  <field name="birthday"/>
+                  <field name="age"/>
+                  <field name="classe_id"/>
+                  
               </tree>
           </field>
       </record>
