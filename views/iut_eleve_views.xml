@@ -9,7 +9,7 @@
 
                   <field name="name"/>
                   <field name="surname"/>
-                  <field name="birthday"/>
+                  <field name="birthdate"/>
                   <field name="age"/>
                   <field name="classe_id"/>
                   
