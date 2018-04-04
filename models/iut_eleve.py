@@ -9,4 +9,4 @@ class iut_eleve(models.Model):
     surname = fields.Char(string='prénom')
     birthdate = fields.Date(string='date de naissance')
     age = fields.Integer(string='age')
-    # classe_id = fields.One2many('iut.classe', string='classe')    
+    classe_id = fields.Many2one('iut.classe', string='classe')    

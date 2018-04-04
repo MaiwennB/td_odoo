@@ -9,4 +9,4 @@ class iut_agenda(models.Model):
     date_stop = fields.Datetime(string='fin')
     room = fields.Char(string='Salle')
     cours_id = fields.Many2one('iut.cours', string='cours')    
-    # class_id = fields.Many2one('iut.class', string='class')    
+    classe_id = fields.Many2one('iut.classe', string='classe')    

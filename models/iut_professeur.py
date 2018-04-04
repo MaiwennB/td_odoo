@@ -8,5 +8,5 @@ class iut_professeur(models.Model):
 
     name = fields.Char(string='nom')
     surname = fields.Char(string='prénom')
-    # classe_id = fields.One2many('iut.classe', string='classe')    
+    classe_id = fields.Many2one('iut.classe', string='Classe')
 

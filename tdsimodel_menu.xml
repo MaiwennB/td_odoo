@@ -8,15 +8,15 @@
         <menuitem id="menu_modele_config" parent="menu_model_root"
                 name="Gestion" sequence="16"/>
             <menuitem id="menu_iut_agenda" parent="menu_modele_config"
-                action="iut_agenda_action" sequence="13" name="Agenda"/>
+                action="iut_agenda_action" sequence="11" name="Agenda"/>
             <menuitem id="menu_iut_classe" parent="menu_modele_config"
-                action="iut_classe_action" sequence="13" name="Classe"/>
+                action="iut_classe_action" sequence="12" name="Classe"/>
             <menuitem id="menu_iut_cours" parent="menu_modele_config"
                 action="iut_cours_action" sequence="13" name="Cours"/>
             <menuitem id="menu_iut_eleve" parent="menu_modele_config"
-                action="iut_eleve_action" sequence="13" name="Eleves"/>
+                action="iut_eleve_action" sequence="14" name="Eleves"/>
             <menuitem id="menu_iut_professeur" parent="menu_modele_config"
-                action="iut_professeur_action" sequence="13" name="Professeurs"/>
+                action="iut_professeur_action" sequence="15" name="Professeurs"/>
 
     </data>
 </openerp>
