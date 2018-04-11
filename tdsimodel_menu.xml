@@ -2,7 +2,7 @@
 <openerp>
     <data>
         <!-- Top menu item -->
-        <menuitem name="Ecole" id="menu_model_root" groups="group_model_member" sequence="80" />
+        <menuitem name="Lycée" id="menu_model_root" groups="group_model_member" sequence="80" />
         
         <!-- Menu Modele / Configuration -->
         <menuitem id="menu_modele_config" parent="menu_model_root"
